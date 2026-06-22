@@ -4,23 +4,26 @@
     <title>Vasudev VK</title>
 </head>
 <body>
-    <a href="#about">About Me</a> |
-    <a href="#skills">Skills</a> |
-    <a href="#education">Education</a> |
-    <a href="#contact">Contact</a>
+    <header>
+        <nav>
+            <a href="#about">About Me</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
     <h1>VASUDEV VK</h1>
-
     <img src="Images/Vasudev_photo_pfp.jpeg" alt="Profile Picture" width="300">
 
     <hr>
-
+    <section>
     <h2 id="about">About Me</h2>
     <p>
         Hello! I am Vasudev VK . I am a B-Tech CSE (AI & ML) student focused on programming, AI technologies, and building impactful 
         digital solutions.
     </p>
-
+    </section>
     <hr>
 
     <h2 id="skills">Skills</h2>
@@ -59,10 +62,27 @@
 
     <h2 id="contact">Let's Work Together</h2>
     <p>Email :</p>
-    <p><B>vasudevvk2006@gmail.com</B></p>
+    <p><a href="mailto:vasudevvk2006@gmail.com">Email : vasudevvk2006@gmail.com</a></p>
     <p>Location :</p>
     <p><B>Trivandrum , Kerala</B></p>
     <br>  
 
+    <hr>
+
+    <footer>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </footer>
+    <br>
 </body>
 </html>
