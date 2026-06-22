@@ -16,6 +16,6 @@ It conatins HTML features like ***Links*** , ***Lists*** , ***Semantics*** , etc
 
 ## Screenshots
 
-![First Section](Screenshots/First_Screenshot.png)
-![Second Section](Screenshots/Second_Screenshot.png)
+![First Section](../Screenshots/First_Screenshot.png)
+![Second Section](../Screenshots/Second_Screenshot.png)
 
