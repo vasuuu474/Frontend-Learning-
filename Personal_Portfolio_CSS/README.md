@@ -13,9 +13,10 @@ It conatins HTML features like ***Links*** , ***Lists*** , ***Semantics*** , etc
 ## Language Used 
 
 - HTML
+- CSS
 
 ## Screenshots
 
-![First Section](../Screenshots/First_Screenshot.png)
-![Second Section](../Screenshots/Second_Screenshot.png)
+![First Section](../Screenshots/CSS_Screenshot_1.png)
+![Second Section](../Screenshots/CSS_Screenshot_2.png)
 
