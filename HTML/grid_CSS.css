@@ -18,12 +18,9 @@ div{
     "item1 item1 item2 item2"
     "item3 item3 item2 item2"
     "item3 item3 item4 item4";
-    justify-items: center; 
-    /*start - aligns the grid to the  left side */
-    /*end - aligns the grid to the  right side */
-    /*center - aligns the grid to the  center */
-    justify-content: center;
-
+    align-items: center  ; /*align - align items vertically*/
+    justify-items: center; /*Justify - align items horizontally*/
+    place-items: center; /*place - align items horizontally and vertically*/
 }
 .grid-child{
     background-color: blueviolet;
@@ -33,7 +30,6 @@ div{
     }
     &:nth-child(2){
         grid-area: item2 ;
-        justify-self: end;
 
     }
     &:nth-child(3){
