@@ -1,0 +1,206 @@
+/* ---------- General Styles ---------- */
+
+body {
+    background-color: #18171F;
+    color: #F4F1F1;
+    margin: 0;
+    padding: 0px ;
+    font-family: "Inter", sans-serif;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;
+    margin-top: 100px;
+    padding: 500;
+
+}
+
+.about p {
+    max-width: 500 ;  
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    color: #9C87BC;
+}
+
+p {
+    color: #B9B6C2;
+    line-height: 1.6;
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #F4F1F1;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #9C87BC;
+}
+
+/* ---------- Hero Section ---------- */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 50px 20px;
+}
+
+.hero-image img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+/* ---------- Skills Section ---------- */
+
+.skills-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    max-width: 800px;
+    margin: auto;
+}
+
+.skill-card {
+    background-color: #9C87BC;
+    color: #18171F;
+
+    padding: 20px;
+
+    border-radius: 8px;
+}
+
+/* ---------- Education ---------- */
+
+table {
+    width: 80%;
+    margin: auto;
+
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #8D8997;
+    padding: 12px;
+}
+
+th {
+    color: #9C87BC;
+}
+
+/* ---------- Contact Form ---------- */
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    width: 60%;
+    margin: auto;
+}
+
+input,
+textarea {
+    padding: 12px;
+
+    border: 1px solid #8D8997;
+
+    background-color: #18171F;
+
+    color: #F4F1F1;
+}
+
+button {
+    padding: 12px;
+
+    border: none;
+
+    background-color: #9C87BC;
+
+    color: #18171F;
+
+    cursor: pointer;
+}
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 180px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    form {
+        width: 95%;
+    }
+}
