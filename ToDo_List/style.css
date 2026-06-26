@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: darkolivegreen;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    gap : 10px
+}
+ul{
+    width : 200px ;
+    margin: 20px ;
+    padding: 20px;
+    border: 2px solid #D8CFBF;
+    border-radius: 10px;
+    color: #D8CFBF;
+}
+
+li{
+    display : flex ;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: #3B4532;
+    color: #FFF5E8;
+    border-radius: 3px;
+    margin: 7px;
+    padding: 5px;
+    text-align: left;
+}
+
+.todo-app{
+    width: 300px;
+    text-align: center;
+    color:#F5F1E8 ;
+    #taskInput{
+        background-color: #3B4532;
+    }
+    ::placeholder{
+        color: #d8cfbfa0;
+    }
+    #addTask{
+        background-color: #D8CFBF ;
+        color: #3B4532;
+    }
+    
+}
+
+.deleteTask{
+    background-color: #2e3626 ;
+    color: #D8CFBF;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
